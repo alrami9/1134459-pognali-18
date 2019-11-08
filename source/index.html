@@ -4,9 +4,180 @@
     <meta charset="utf-8">
     <title>HTML Academy: Погнали</title>
   </head>
+
   <body>
+    <header class="page-header">
+      <nav class="page-header__main-nav main-nav">
+        <a class="main-nav__logo logo">
+          <img class="logo__image" src="https://via.placeholder.com/150x150" width="100" height="19" alt="logo">
+        </a>
+        <button class="main-nav__toggle" type="button" name="button">открыть меню</button>
+      </nav>
+      <h1 class="page-header__slogan">В путешествие с крутыми попутчиками!</h1>
+      <ul class="page-header__user-list user-list">
+        <li class="user-list__item">
+          <a class="user-list__tel" href="tel:"></a>
+        </li>
+        <li class="user-list__item">
+          <a class="user-list__email" href="mailto:"></a>
+        </li>
+        <li class="user-list__item">
+          <a class="user-list__login" href="#">Авторизация</a>
+        </li>
+      </ul>
+      <blockquote class="page-header__blockquote blockquote">
+        <p class="blockquote__text">&#171;Лучшее приложение, что я видел в жизни!&#187;</p>
+        <cite class="blockquote__cite">Мурат Эльтазин главный редактор  газеты &#171;гаджетлайф&#187;</cite>
+      </blockquote>
+      <ul class="page-header__intro-list intro-list">
+        <li class="intro-list__item">Выберите  направление</li>
+        <li class="intro-list__item">Изучите идеи путешественников</li>
+        <li class="intro-list__item">Находите тех, кто похож на вас</li>
+        <li class="intro-list__item">Путешествуйте вместе!</li>
+      </ul>
+      <section class="page-header__about-us about-us">
+        <h2 class="about-us__caption">О сервисе</h2>
+        <p class="about-us__text">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.</p>
+        <p class="about-us__text">А если найдете кого&dash;то близкого по духу &mdash; скорее зовите в совместный трип!</p>
+      </section>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+    <main class="page-main">
+      <section class="countries">
+        <h2 class="countries__caption">Направления</h2>
+        <p class="countries__text">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.</p>
+        <ul class="countries__state-list state-list">
+          <li class="state-list__item">
+            <div class="state-list__image-box image-box">
+              <img class="image-box__image" src="https://via.placeholder.com/150x150" width="270" height="110" alt="Фотография - открытка Таиланда">
+            </div>
+            <div class="state-list__description">
+              <h3 class="state-list__title">Таиланд</h3>
+              <h4 class="state-list__slogan">Джунгли зовут!</h4>
+              <span class="state-list__visitors">18321</span>
+            </div>
+          </li>
+          <li class="state-list__item">
+            <div class="state-list__image-box image-box">
+              <img class="image-box__image" src="https://via.placeholder.com/150x150" width="270" height="110" alt="Фотография - открытка Франции">
+            </div>
+            <div class="state-list__description">
+              <h3 class="state-list__title">Франция</h3>
+              <h4 class="state-list__slogan">Трэ бьен, манифик!</h4>
+              <span class="state-list__visitors">12518</span>
+            </div>
+          </li>
+          <li class="state-list__item">
+            <div class="state-list__image-box image-box">
+              <img class="image-box__image" src="https://via.placeholder.com/150x150" width="270" height="110" alt="Фотография - открытка Чехии">
+            </div>
+            <div class="state-list__description">
+              <h3 class="state-list__title">Чехия</h3>
+              <h4 class="state-list__slogan">Закоулки старой Европы</h4>
+              <span class="state-list__visitors">5326</span>
+            </div>
+          </li>
+        </ul>
+        <a class="countries__link" href="form.html">Показать все</a>
+      </section>
 
+      <section class="travelmates">
+        <h2 class="travelmates__caption">Попутчики</h2>
+        <p class="travelmates__text">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.</p>
+        <p class="travelmates__slogan">Теперь можно легко найти единомышленников!</p>
+        <ul class="travelmates__profile-list profile-list">
+          <li class="profile-list__item profile">
+            <div class="profile__avatar">
+              <img class="profile__image" src="https://via.placeholder.com/150x150" width="270" height="270" alt="Фотография попутчика">
+            </div>
+            <div class="profile__description">
+              <ul class="profile__unvisited-list unvisited-list">
+                <li class="unvisited-list__item"></li>
+                <li class="unvisited-list__item"></li>
+                <li class="unvisited-list__item"></li>
+              </ul>
+              <h3 class="profile__name">Таня Фирсова</h3>
+              <p class="profile__tags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+              <ul class="profile__transport-list transport-list">
+                <li class="transport-list__item"></li>
+                <li class="transport-list__item"></li>
+                <li class="transport-list__item"></li>
+                <li class="transport-list__item"></li>
+              </ul>
+              <div class="profile__level level">
+                <span class="level__number">99</span>
+                <span class="level__title">level</span>
+              </div>
+            </div>
+          </li>
+          <li class="profile-list__item profile">
+            <div class="profile__avatar">
+              <img class="profile__image" src="https://via.placeholder.com/150x150" width="270" height="270" alt="Фотография попутчика">
+            </div>
+            <div class="profile__description">
+              <ul class="profile__unvisited-list unvisited-list">
+                <li class="unvisited-list__item"></li>
+                <li class="unvisited-list__item"></li>
+              </ul>
+              <h3 class="profile__name">Петя Демин</h3>
+              <p class="profile__tags">#бургер #бар #футбол #концерт #крафт</p>
+              <ul class="profile__transport-list transport-list">
+                <li class="transport-list__item"></li>
+                <li class="transport-list__item"></li>
+                <li class="transport-list__item"></li>
+                <li class="transport-list__item"></li>
+              </ul>
+              <div class="profile__level level">
+                <span class="level__number">80</span>
+                <span class="level__title">level</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <a class="travelmates__link" href="catalog.html">Показать всех</a>
+      </section>
+
+      <section class="rates">
+        <h2 class="rates__caption">Добавьте свой профиль</h2>
+        <ul class="rates__terms">
+          <li class="rates__terms-item">
+            <p class="rates__terms-unit">Базовое размещение</p>
+            <span class="rates__terms-cost">Бесплатно</span>
+          </li>
+          <li class="rates__terms-item">
+            <p class="rates__terms-unit">Вывод на первых позициях</p>
+            <span class="rates__terms-cost">99 руб./мес</span>
+          </li>
+          <li class="rates__terms-item">
+            <p class="rates__terms-unit">Кастомный цвет карточки</p>
+            <span class="rates__terms-cost">59 руб./мес</span>
+          </li>
+        </ul>
+        <a class="rates__link" href="#">Показать тарифы для бизнеса</a>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <a class="page-footer__logo logo" href="#">
+        <img class="logo__image logo__image--footer" src="https://via.placeholder.com/150x150" width="100" height="19" alt="logo">
+      </a>
+      <ul class="page-footer__social social">
+        <li class="social__item">
+          <a class="social__link social__link--fb" href="#"></a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--vk" href="#"></a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--inst" href="#"></a>
+        </li>
+      </ul>
+      <div class="page-footer__develope">
+        <p class="page-footer__develope-text">Разработано</p>
+        <a class="page-footer__develope-link" href="#">
+          <img class="page-footer__develope-icon" src="https://via.placeholder.com/150x150" width="27" height="35" alt="Курсы HtmlAcademy">
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
