@@ -12,40 +12,44 @@
           <img class="logo__image" src="https://via.placeholder.com/150x150" width="100" height="19" alt="logo">
         </a>
         <button class="main-nav__toggle" type="button" name="button">открыть меню</button>
+        <ul class="page-header__user-list user-list">
+          <li class="user-list__item">
+            <a class="user-list__tel" href="tel:"></a>
+          </li>
+          <li class="user-list__item">
+            <a class="user-list__email" href="mailto:"></a>
+          </li>
+          <li class="user-list__item">
+            <a class="user-list__login inner-link" href="#">Авторизация</a>
+          </li>
+        </ul>
       </nav>
-      <h1 class="page-header__slogan">В путешествие с крутыми попутчиками!</h1>
-      <ul class="page-header__user-list user-list">
-        <li class="user-list__item">
-          <a class="user-list__tel" href="tel:"></a>
-        </li>
-        <li class="user-list__item">
-          <a class="user-list__email" href="mailto:"></a>
-        </li>
-        <li class="user-list__item">
-          <a class="user-list__login" href="#">Авторизация</a>
-        </li>
-      </ul>
-      <blockquote class="page-header__blockquote blockquote">
-        <p class="blockquote__text">&#171;Лучшее приложение, что я видел в жизни!&#187;</p>
-        <cite class="blockquote__cite">Мурат Эльтазин главный редактор  газеты &#171;гаджетлайф&#187;</cite>
-      </blockquote>
-      <ul class="page-header__intro-list intro-list">
-        <li class="intro-list__item">Выберите  направление</li>
-        <li class="intro-list__item">Изучите идеи путешественников</li>
-        <li class="intro-list__item">Находите тех, кто похож на вас</li>
-        <li class="intro-list__item">Путешествуйте вместе!</li>
-      </ul>
-      <section class="page-header__about-us about-us">
-        <h2 class="about-us__caption">О сервисе</h2>
-        <p class="about-us__text">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.</p>
-        <p class="about-us__text">А если найдете кого&dash;то близкого по духу &mdash; скорее зовите в совместный трип!</p>
-      </section>
     </header>
 
     <main class="page-main">
+      <section class="intro">
+        <h1 class="intro__caption page-caption">В путешествие с крутыми попутчиками!</h1>
+        <blockquote class="intro__blockquote blockquote">
+          <p class="blockquote__text content-text">&#171;Лучшее приложение, что я видел в жизни!&#187;</p>
+          <cite class="blockquote__cite content-text">Мурат Эльтазин главный редактор  газеты &#171;гаджетлайф&#187;</cite>
+        </blockquote>
+        <ul class="intro__intro-list intro-list">
+          <li class="intro-list__item">Выберите  направление</li>
+          <li class="intro-list__item">Изучите идеи путешественников</li>
+          <li class="intro-list__item">Находите тех, кто похож на вас</li>
+          <li class="intro-list__item">Путешествуйте вместе!</li>
+        </ul>
+      </section>
+
+      <section class="about-us">
+        <h2 class="about-us__caption section-caption">О сервисе</h2>
+        <p class="about-us__text content-text">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.</p>
+        <p class="about-us__text content-text">А если найдете кого&dash;то близкого по духу &mdash; скорее зовите в совместный трип!</p>
+      </section>
+
       <section class="countries">
-        <h2 class="countries__caption">Направления</h2>
-        <p class="countries__text">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.</p>
+        <h2 class="countries__caption section-caption">Направления</h2>
+        <p class="countries__text content-text">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.</p>
         <ul class="countries__state-list state-list">
           <li class="state-list__item">
             <div class="state-list__image-box image-box">
@@ -78,13 +82,13 @@
             </div>
           </li>
         </ul>
-        <a class="countries__link" href="form.html">Показать все</a>
+        <a class="countries__link page-link" href="form.html">Показать все</a>
       </section>
 
       <section class="travelmates">
-        <h2 class="travelmates__caption">Попутчики</h2>
-        <p class="travelmates__text">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.</p>
-        <p class="travelmates__slogan">Теперь можно легко найти единомышленников!</p>
+        <h2 class="travelmates__caption section-caption">Попутчики</h2>
+        <p class="travelmates__text content-text">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.</p>
+        <p class="travelmates__text content-text">Теперь можно легко найти единомышленников!</p>
         <ul class="travelmates__profile-list profile-list">
           <li class="profile-list__item profile">
             <div class="profile__avatar">
@@ -96,7 +100,7 @@
                 <li class="unvisited-list__item"></li>
                 <li class="unvisited-list__item"></li>
               </ul>
-              <h3 class="profile__name">Таня Фирсова</h3>
+              <h3 class="profile__name name-caption">Таня Фирсова</h3>
               <p class="profile__tags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
               <ul class="profile__transport-list transport-list">
                 <li class="transport-list__item"></li>
@@ -119,7 +123,7 @@
                 <li class="unvisited-list__item"></li>
                 <li class="unvisited-list__item"></li>
               </ul>
-              <h3 class="profile__name">Петя Демин</h3>
+              <h3 class="profile__name name-caption">Петя Демин</h3>
               <p class="profile__tags">#бургер #бар #футбол #концерт #крафт</p>
               <ul class="profile__transport-list transport-list">
                 <li class="transport-list__item"></li>
@@ -134,23 +138,23 @@
             </div>
           </li>
         </ul>
-        <a class="travelmates__link" href="catalog.html">Показать всех</a>
+        <a class="travelmates__link page-link" href="catalog.html">Показать всех</a>
       </section>
 
       <section class="rates">
-        <h2 class="rates__caption">Добавьте свой профиль</h2>
+        <h2 class="rates__caption section-caption">Добавьте свой профиль</h2>
         <ul class="rates__terms">
           <li class="rates__terms-item">
-            <p class="rates__terms-unit">Базовое размещение</p>
-            <span class="rates__terms-cost">Бесплатно</span>
+            <p class="rates__terms-unit content-text">Базовое размещение</p>
+            <span class="rates__terms-cost content-text">Бесплатно</span>
           </li>
           <li class="rates__terms-item">
-            <p class="rates__terms-unit">Вывод на первых позициях</p>
-            <span class="rates__terms-cost">99 руб./мес</span>
+            <p class="rates__terms-unit content-text">Вывод на первых позициях</p>
+            <span class="rates__terms-cost content-text">99 руб./мес</span>
           </li>
           <li class="rates__terms-item">
-            <p class="rates__terms-unit">Кастомный цвет карточки</p>
-            <span class="rates__terms-cost">59 руб./мес</span>
+            <p class="rates__terms-unit content-text">Кастомный цвет карточки</p>
+            <span class="rates__terms-cost content-text">59 руб./мес</span>
           </li>
         </ul>
         <a class="rates__link" href="#">Показать тарифы для бизнеса</a>
@@ -173,7 +177,7 @@
         </li>
       </ul>
       <div class="page-footer__develope">
-        <p class="page-footer__develope-text">Разработано</p>
+        <p class="page-footer__develope-text content-text">Разработано</p>
         <a class="page-footer__develope-link" href="#">
           <img class="page-footer__develope-icon" src="https://via.placeholder.com/150x150" width="27" height="35" alt="Курсы HtmlAcademy">
         </a>
