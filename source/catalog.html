@@ -143,6 +143,58 @@
         <a class="countries-filter__link inner-link" href="#">свернуть</a>
       </section>
 
+      <section class="travelmates-filter">
+        <form class="travelmates-form" action="https://echo.htmlacademy.ru" method="post">
+          <h2 class="travelmates-form__caption">Подберите идеального попутчика</h2>
+          <fieldset class="travelmates-form__field">
+            <h3 class="travelmates-form__field-caption">хобби</h3>
+          </fieldset>
+          <fieldset class="travelmates-form__field">
+            <h3 class="travelmates-form__field-caption">музыка</h3>
+            <a class="travelmates-form__toggle-link" href="#"></a>
+            <input class="travelmates-form__item" type="checkbox" name="hard-rock" id="hard-rock" checked>
+            <label class="travelmates-form__label" for="hard-rock">Тяжелый рок</label>
+            <input class="travelmates-form__item" type="checkbox" name="russian-rap" id="russian-rap">
+            <label class="travelmates-form__label" for="russian-rap">Русский рэп</label>
+            <input class="travelmates-form__item" type="checkbox" name="eurodance" id="eurodance">
+            <label class="travelmates-form__label" for="eurodance">Евроденс</label>
+          </fieldset>
+          <fieldset class="travelmates-form__field">
+            <h3 class="travelmates-form__field-caption">еда</h3>
+            <a class="travelmates-form__toggle-link" href="#"></a>
+          </fieldset>
+          <fieldset class="travelmates-form__field">
+            <h3 class="travelmates-form__field-caption">транспорт</h3>
+            <a class="travelmates-form__toggle-link" href="#"></a>
+            <input class="travelmates-form__item" type="checkbox" name="aircraft" id="aircraft" checked>
+            <label class="travelmates-form__transport-label" for="aircraft"></label>
+            <input class="travelmates-form__item" type="checkbox" name="bus" id="bus" checked>
+            <label class="travelmates-form__transport-label" for="bus"></label>
+            <input class="travelmates-form__item" type="checkbox" name="bike" id="bike">
+            <label class="travelmates-form__transport-label" for="bike"></label>
+            <input class="travelmates-form__item" type="checkbox" name="walk" id="walk" checked>
+            <label class="travelmates-form__transport-label" for="walk"></label>
+          </fieldset>
+          <fieldset class="travelmates-form__field">
+            <h3 class="travelmates-form__field-caption">левел</h3>
+            <a class="travelmates-form__toggle-link" href="#"></a>
+            <div class="travelmates-form__range range">
+              <div class="range__level">
+                <input class="range__level-min" type="text" name="min-level" value="30">
+                <input class="range__level-max" type="text" name="max-level" value="100">
+              </div>
+              <div class="range__scale">
+                <div class="range__bar">
+                </div>
+                <div class="range__toggle range__toggle-min"></div>
+                <div class="range__toggle range__toggle-max"></div>
+              </div>
+            </div>
+          </fieldset>
+          <button class="travelmates-form__link inner-link" type="submit" name="button">показать</button>
+        </form>
+      </section>
+
       <section class="travelmates-catalog">
         <ul class="travelmates-catalog__catalog-list catalog-list">
           <li class="catalog-list__item profile">
